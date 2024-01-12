@@ -42,6 +42,6 @@ client.on('ready', async () => {
   client.user.setPresence({ status: "dnd" });
 })
 
-const token = 'MTEyNDk4NDg2ODQzNTE0ODg2MQ.G0TTkH._zisr4W_t1p4woO8Hn4XUlvKdRbGKK9xJkK8o8';
+const token = (process.env.token);
 // paste the token in place of 'your_token_here'
 client.login(token);
